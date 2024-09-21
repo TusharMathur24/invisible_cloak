@@ -3,10 +3,10 @@
 This project is inspired by the famous Invisibility Cloak from Harry Potter, bringing a fun concept to life using Python and OpenCV. The program leverages computer vision techniques to make a person appear invisible by masking a specific color in real-time video feed and replacing it with a static background.
 
 #### Key Features:
-- **Invisibility Effect**: Uses a white-colored cloak (or any white object) to create the illusion of invisibility.
+- **Invisibility Effect**: Uses a blue-colored cloak (or any blue object) to create the illusion of invisibility.
 - **Real-Time Video Processing**: Captures video from the webcam, processes it frame by frame, and applies the invisibility effect in real-time.
 - **Flip Video Mode**: Allows users to toggle between normal and flipped video modes using the 'f' key.
-- **Dynamic Masking**: Detects the white color in the video feed, creates a mask, and replaces the cloak area with the previously captured background, making the object behind the cloak visible.
+- **Dynamic Masking**: Detects the blue color in the video feed, creates a mask, and replaces the cloak area with the previously captured background, making the object behind the cloak visible.
   
 #### Technologies Used:
 - **Python**: The core programming language used for the project.
@@ -16,7 +16,7 @@ This project is inspired by the famous Invisibility Cloak from Harry Potter, bri
 
 #### How It Works:
 1. The program first captures the background without the cloak.
-2. During real-time video, it detects the white color in the video feed and creates a mask for that color.
+2. During real-time video, it detects the blue color in the video feed and creates a mask for that color.
 3. The cloak area is replaced with the previously captured background, simulating the invisibility effect.
 4. The rest of the frame remains unchanged, creating a seamless transition between visibility and invisibility.
 
